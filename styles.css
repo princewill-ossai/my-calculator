@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.calc-frame {
+    width: 17rem;
+  height: 34.8rem;
+  background-color: #ed6363;
+  padding-left: 0.2rem;
+  padding-top: 0.2rem;
+  margin-top: 3rem !important;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+.iphone-top {
+  width: 60%;
+  height: 24px;
+  margin: auto;
+  background-color: black;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}
+
+.result-screen-frame {
+  width: 85%;
+  height: 30vh;
+  margin: auto;
+  background-color: #c0e08f;
+  border-radius: 2rem;
+  padding-top: 8rem;
+  padding-left: 2rem;
+}
+
+#result-screen {
+    font-size: 3rem;
+    width: 11rem;
+    display: flex;
+    justify-content: end;
+}
+
+#calc-app {
+  width: 99%;
+  height: 34.4rem;
+  /* margin: auto; */
+  /* padding-top: 1rem; */
+  background-color: #313030;
+  border-radius: 1.7rem;
+}
+
+#pad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10%;
+}
+
+.pad-unit {
+  background-color: #5b5855;
+  color: #bfc3c7;
+  width: 3rem;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0.4rem;
+  box-shadow: 1px 1px 1px 1px #b7b1b1;
+}
+
+.pad-unit:hover {
+    background-color: #8d8b87;
+}
+
+.zero {
+    width: 3rem;
+}
+
+.blue-bg {
+    background-color: #8686d1;
+}
+
+.blue-bg:hover {
+    background-color: #9898de;
+}
+
+.red-bg {
+    background-color: #f14545;
+}
+
+.red-bg:hover {
+    background-color: #ed6363;
+}
